@@ -92,7 +92,14 @@
     "@rush-temp/applicationinsights-shims": {
       "version": "0.0.0",
       "from": "projects\\applicationinsights-shims.tgz",
-      "resolved": "file:projects\\applicationinsights-shims.tgz"
+      "resolved": "file:projects\\applicationinsights-shims.tgz",
+      "dependencies": {
+        "typescript": {
+          "version": "2.5.3",
+          "from": "typescript@2.5.3",
+          "resolved": "https://registry.npmjs.org/typescript/-/typescript-2.5.3.tgz"
+        }
+      }
     },
     "@rush-temp/applicationinsights-web": {
       "version": "0.0.0",
@@ -2336,9 +2343,9 @@
       "resolved": "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
     },
     "typescript": {
-      "version": "2.5.3",
-      "from": "typescript@2.5.3",
-      "resolved": "https://registry.npmjs.org/typescript/-/typescript-2.5.3.tgz"
+      "version": "3.9.5",
+      "from": "typescript@^3.7.5",
+      "resolved": "https://registry.npmjs.org/typescript/-/typescript-3.9.5.tgz"
     },
     "uglify-js": {
       "version": "3.0.28",
